@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logo a,
+nav ul, 
+nav a {
+    font-size: 18px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 50px
+}
+
+.hero-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 100px;
+}
+
+.hero-text h1,
+.placeholder-image {
+    color: #f9faf8;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.hero-text p {
+    color: #e5e7eb;
+
+}
+
+.hero-container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 24px;
+}
+
+.info-container {
+    padding: 50px;
+}
+
+#random-info {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.img-container,
+.img-container p {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.img-container p {
+    width: 200px;
+}
+
+.info-container img {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.quote-container p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    width: 80%;
+}
+
+#thor {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cta-container {
+    border-radius: 10px;
+    margin: 100px;
+    background-color: #3882f6;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta {
+    color: #f9faf8;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-container p {
+    color: #f9faf8;
+    font-size: 16px;
+}
+
+.cta-container button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 24px;
+    font-size: 20px;
+}
+
+footer {
+    background: #1f2937;
+    color: #f9faf8;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
